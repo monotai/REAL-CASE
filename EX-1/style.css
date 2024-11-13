@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(244, 244, 244);
+}
+.container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    width: 60vw;
+    margin: auto;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 5px 5px 10px rgb(211, 211, 211);
+}
+.head {
+    padding: 10px 20px;
+    display: grid;
+    align-content: center;
+    grid-template-columns: auto 1fr auto;
+    grid-gap: 10px;
+    height: 50px;
+}
+.information {
+    display: flex;
+    flex-direction: column;
+}
+.content {
+    margin: auto;
+    border-radius: 8px;
+}
+video {
+    border-radius: 16px;
+}
+.social {
+    display: grid;
+    grid-template-columns: auto auto auto auto 1fr auto;
+    grid-gap: 10px;
+    padding: 10px 20px;
+}
+.icon {
+    width: 20px;
+    filter: grayscale(100%);
+    color: #A9A9AC;
+}
+p {
+    margin: auto;
+    color: #A9A9AC;
+}
+.comment {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    padding: 15px 20px;
+    grid-gap: 20px;
+    background-color: rgb(250, 250, 250);
+    border-radius:0 0 16px 16px;
+    border: 1px solid rgb(240, 240, 240);
+}
+input {
+    outline: none;
+    border: none;
+    background-color: rgb(250, 250, 250);
+}
