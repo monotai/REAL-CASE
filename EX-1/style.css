@@ -28,6 +28,8 @@ body {
 }
 video {
     border-radius: 16px;
+    width: 90%;
+    margin: auto;
 }
 .social {
     display: grid;
